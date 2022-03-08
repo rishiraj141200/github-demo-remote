@@ -12,4 +12,7 @@ def multiply(x,y):
 
 # Divide implementation
 def divide(x,y):
-    return x/y            # on remote repo
+    if y==0:                       # on local repo
+        return DIVIDE_BY_0_ERROR
+    else:
+        return x/y
