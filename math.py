@@ -1,6 +1,6 @@
 # Add implementation
 def add(x,y):
-    pass                    # on local repo
+    return x+y
 
 # Subtract implementation
 def subtract(x,y):
